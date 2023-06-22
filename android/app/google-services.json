@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "145599922456",
+    "project_id": "flash-chat-97513",
+    "storage_bucket": "flash-chat-97513.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:145599922456:android:39fd22f569f2f239219e6d",
+        "android_client_info": {
+          "package_name": "com.ketchup.flash_chat_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "145599922456-d3tiojjqhtt4sdtfbfo8ntdjv7q4u26n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFfl43GQCD9i8wtXxSY7YXURSRzpkl_QE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "145599922456-d3tiojjqhtt4sdtfbfo8ntdjv7q4u26n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
