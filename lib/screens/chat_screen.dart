@@ -1,5 +1,9 @@
+import 'dart:math';
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:flash_chat_app/screens/welcome_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flash_chat_app/constants.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
 
 class ChatScreen extends StatefulWidget {
   static const String id = 'chat_screen';
