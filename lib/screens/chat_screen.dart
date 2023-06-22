@@ -89,6 +89,12 @@ class _ChatScreenState extends State<ChatScreen> {
                   TextButton(
                     onPressed: () {
                       //Implement send functionality.
+                      _firestore.collection('messages').add(
+                        {
+                          'text': messageText,
+                          'sender': loggedInUser?.email,
+                        },
+                      );
                     },
                     child: Text(
                       'Send',
